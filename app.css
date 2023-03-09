@@ -382,6 +382,15 @@ ul li a {
   color: black;
   text-decoration: none;
 }
+
+nav ul{
+  display: flex;
+}
+
+ul li a:hover{
+color: lightcoral;
+}
+
 .btno_head {
   width: 8rem;
   height: 3rem;
@@ -420,6 +429,7 @@ ul li a {
 .text2 {
   font-weight: normal;
   line-height: 2.5rem;
+  font-family: 'Brush Script MT', cursive;
 }
 .setion_main {
   display: flex;
@@ -450,8 +460,13 @@ main section {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.box_three p{
+  font-family: 'Brush Script MT', cursive;
+}
 .container_box {
   text-align: center;
+  margin-top: 30px;
 }
 
 main section img {
@@ -481,6 +496,13 @@ main section img {
   border-radius: 0.5rem;
   margin: 1rem;
 }
+
+.small_Comment p{
+  font-family: Roboto, sans-serif;
+ line-height: 1.5;
+ 
+}
+
 .commnets .container_person {
   display: flex;
   justify-content: center;
@@ -569,12 +591,21 @@ footer .contianer_footer {
 .bottom {
   width: 100%;
 }
+footer  .contianer_footer h3{
+  color: white;
+}
 .container_bottom1 {
   width: 80%;
   margin: 8rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.contianer_btn button {
+  margin-top: 1rem;
+  border-radius: 30px;
+  padding: 10px;
 }
 
 /* response project */
@@ -594,6 +625,8 @@ footer .contianer_footer {
   }
   .contianer_btn button {
     margin-top: 1rem;
+    border-radius: 30px;
+    padding: 10px;
   }
   .setionreza .normal {
     display: none;
@@ -603,6 +636,7 @@ footer .contianer_footer {
     display: flex;
   }
 }
+
 
 @media only screen and (min-width: 992px) {
   .setionreza .normal {
@@ -658,5 +692,32 @@ footer .contianer_footer {
     flex-basis: 100%;
     margin-left: 1rem;
     margin: 1rem;
+  }
+}
+@media only screen and (max-width:990px){
+ 
+ *{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+ }
+  .sizemall{
+    /* display: block; */
+    position: fixed;
+    height: 100%;
+    width: 8rem;
+    top: 0;
+    left: 0;
+    /* background-color: lightseagreen; */
+   background-color: lightskyblue;
+   border: 1px solid blue; 
+   display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s;
+  }
+ ul li{
+    margin-top: 42px;
   }
 }
