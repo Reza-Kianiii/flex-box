@@ -617,9 +617,7 @@ footer  .contianer_footer h3{
   /* .setionreza .sizemall{
    display: none;
   } */
-  .btno_head {
-    display: none;
-  }
+  
   .contianer_row {
     flex-direction: column-reverse;
   }
@@ -638,19 +636,15 @@ footer  .contianer_footer h3{
 }
 
 
-@media only screen and (min-width: 992px) {
-  .setionreza .normal {
-    display: flex;
-  }
-}
+
 
 @media only screen and (max-width: 992px) {
   .header_icons {
     display: block;
   }
-  .setionreza .normal {
+  /* .setionreza .normal {
     display: none;
-  }
+  } */
   .contianer_left {
     flex-basis: 100%;
     max-width: 100%;
@@ -702,13 +696,14 @@ footer  .contianer_footer h3{
    margin: 0;
  }
   .sizemall{
-    /* display: block; */
+  
+    display: none;
     position: fixed;
     height: 100%;
     width: 8rem;
     top: 0;
     left: 0;
-    /* background-color: lightseagreen; */
+    
    background-color: lightskyblue;
    border: 1px solid blue; 
    display: flex;
