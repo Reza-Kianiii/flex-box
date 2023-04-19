@@ -716,3 +716,51 @@ footer  .contianer_footer h3{
     margin-top: 42px;
   }
 }
+ 
+nav .icon-menu{
+  display: none;
+}
+
+@media only screen and   (max-width:850px){
+.Contianer_navbar{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 0;
+  background-color: lightgray;
+  overflow: hidden;
+}
+nav .icon-menu{
+  display: block;
+}
+.Contianer_navbar .normal{
+  display: flex;
+  flex-direction: column;
+text-align: center;
+}
+.btno_head{
+  display: none;
+}
+}
+
+
+
+.sidnav-open{
+  width: 150px;
+  transition: width 0.5s;
+}
+.fa-window-close {
+  position: absolute;
+  top: 5px;
+  right:5px;
+}
+.fa-window-close:hover{
+  color: red;
+}
+
+.sidnav-close{
+  width: 0;
+  transition: width 0.5s;
+}
