@@ -732,6 +732,9 @@ nav .icon-menu{
   background-color: lightgray;
   overflow: hidden;
 }
+.Contianer_navbar .main-close{
+  display: block
+}
 nav .icon-menu{
   display: block;
 }
@@ -763,4 +766,7 @@ text-align: center;
 .sidnav-close{
   width: 0;
   transition: width 0.5s;
+}
+.Contianer_navbar .main-close{
+  display: none;
 }
