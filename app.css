@@ -722,42 +722,48 @@ nav .icon-menu{
 }
 
 @media only screen and   (max-width:850px){
-.Contianer_navbar{
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 0;
-  background-color: lightgray;
-  overflow: hidden;
-}
-.Contianer_navbar .main-close{
-  display: block
-}
+
 nav .icon-menu{
   display: block;
 }
 .Contianer_navbar .normal{
   display: flex;
   flex-direction: column;
-text-align: center;
+  text-align: center;
 }
 .btno_head{
   display: none;
 }
+.Contianer_navbar{
+  display: none;
+}
+
+
 }
 
 
 
 .sidnav-open{
-  width: 150px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width:150px;
+  background-color: lightgray;
+  overflow: hidden;
   transition: width 0.5s;
 }
-.fa-window-close {
+.sidnav-open ul{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Contianer_navbar .fa-window-close {
   position: absolute;
   top: 5px;
   right:5px;
+ 
 }
 .fa-window-close:hover{
   color: red;
@@ -767,6 +773,29 @@ text-align: center;
   width: 0;
   transition: width 0.5s;
 }
-.Contianer_navbar .main-close{
+/* .Contianer_navbar .main-close{
   display: none;
+} */
+.Contianer_navbar_mobile{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width:0;
+  background-color: lightgray;
+  overflow: hidden;
+  transition:  width 0.5s;
 }
+.Contianer_navbar_mobile ul{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.fa-window-close{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+} 
