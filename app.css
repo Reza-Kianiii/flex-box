@@ -62,7 +62,8 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
+  /* 1 */
+  /* font-family: monospace, monospace;  */
   font-size: 1em; /* 2 */
 }
 
@@ -105,7 +106,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  /* 1 */
+  /* font-family: monospace, monospace;  */
   font-size: 1em; /* 2 */
 }
 
@@ -388,13 +390,13 @@ nav ul{
 }
 
 ul li a:hover{
-color: lightcoral;
+color: #ff006e;
 }
 
 .btno_head {
   width: 8rem;
   height: 3rem;
-  background-color: blue;
+  background-color: #3a86ff;
   color: white;
   border-radius: 1rem;
 }
@@ -429,7 +431,7 @@ color: lightcoral;
 .text2 {
   font-weight: normal;
   line-height: 2.5rem;
-  font-family: 'Brush Script MT', cursive;
+  /* font-family: 'Brush Script MT', cursive; */
 }
 .setion_main {
   display: flex;
@@ -462,7 +464,7 @@ main section {
 }
 
 .box_three p{
-  font-family: 'Brush Script MT', cursive;
+  /* font-family: 'Brush Script MT', cursive; */
 }
 .container_box {
   text-align: center;
@@ -476,7 +478,7 @@ main section img {
 .contianer_commmets {
   width: 100%;
   min-height: 50rem;
-  background-color: blue;
+  background-color: #3a86ff;
   text-align: center;
 }
 .main_comments {
@@ -498,7 +500,7 @@ main section img {
 }
 
 .small_Comment p{
-  font-family: Roboto, sans-serif;
+  /* font-family: Roboto, sans-serif; */
  line-height: 1.5;
  
 }
@@ -543,7 +545,7 @@ main section img {
   left: -111rem;
   flex-direction: column;
  
-  background-color: lightblue;
+  background-color: #bbd0ff;
     border: 2px solid black;
   height: 100%;
   margin-top: 0;
@@ -559,7 +561,7 @@ main section img {
 }
 footer {
   width: 100%;
-  background-color: blue;
+  background-color: #3a86ff;
   height: 150px;
   display: flex;
   align-items: center;
@@ -585,7 +587,7 @@ footer .contianer_footer {
   right: 3px;
   width: 50px;
   height: 40px;
-  background-color: blue;
+  background-color: #3a86ff;
   border-radius: 5px;
 }
 .bottom {
@@ -704,8 +706,8 @@ footer  .contianer_footer h3{
     top: 0;
     left: 0;
     
-   background-color: lightskyblue;
-   border: 1px solid blue; 
+   background-color: #bbd0ff;
+   border: 1px solid #3a86ff; 
    display: flex;
 
     flex-direction: column;
@@ -766,7 +768,7 @@ nav .icon-menu{
  
 }
 .fa-window-close:hover{
-  color: red;
+  color: #ff006e;
 }
 
 .sidnav-close{
